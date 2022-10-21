@@ -2,7 +2,7 @@
 I made an AI for Dankpods
 (Setup for use on M1 Macs)
 
-# Setup Instructions
+# Setup Instructions (First use only)
 1: Download python3 from this link ( https://www.python.org/ftp/python/3.10.8/python-3.10.8-macos11.pkg ), and set it up. 
 2: Press blue "Code" button in the top right, and press download as zip.
 3: Open terminal app (In utilities)
