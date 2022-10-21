@@ -1,7 +1,7 @@
 # FrAInk
 I made an AI for Dankpods
 
-#Setup Instructions
+# Setup Instructions
 1: Download python3 from this link ( https://www.python.org/ftp/python/3.10.8/python-3.10.8-macos11.pkg ),  and set it up. 
 2: Open terminal app (In utilities)
 3: copy the following and paste it into terminal:
