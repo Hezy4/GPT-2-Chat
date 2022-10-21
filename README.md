@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 python3 download_model.py 1558M
 ```
 
-#Starting Instructions
+# Starting Instructions
 1: Run the following command:
 ```
 python3 main.py
