@@ -22,9 +22,9 @@ def interact_model(
         batch_size = 1
     assert nsamples % batch_size == 0
 
-    enc = encoder.get_encoder('345M_org', models_dir)
+    enc = encoder.get_encoder('1558M', models_dir)
     hparams = model.default_hparams()
-    with open(os.path.join('./models', '345M_org', 'hparams.json')) as f:
+    with open(os.path.join('./models', '1558M', 'hparams.json')) as f:
         hparams.update(json.load(f))
 
     with tf.compat.v1.Session(graph=tf.Graph()) as sess:
@@ -39,11 +39,11 @@ def interact_model(
         )
 
         saver = tf.compat.v1.train.Saver()
-        ckpt = tf.train.latest_checkpoint(os.path.join('./models', '345M_org'))
+        ckpt = tf.train.latest_checkpoint(os.path.join('./models', '1558M'))
         saver.restore(sess, ckpt)
 
         raw_text = '<|endofdlg|>'
-        print('#' * 20 + ' Start the Chatting ' + '#' * 20)
+        print('#' * 20 + ' Start Dingus Chat ' + '#' * 20)
         while True:
             input_utt =  input('Dank: ')
             raw_text +='\n' + 'Dank: '+ input_utt + '\n' + 'frAInk: '
