@@ -32,4 +32,4 @@ python3 main.py
 .
 Dingus.
 
-- By Hezy = 
+= By Hezy = 
