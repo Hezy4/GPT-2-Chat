@@ -1,4 +1,4 @@
-# GP@-2 Chatbot
+# GPT-2 Chatbot
 I made an AI a year ago
 Setup for use with Apple silicon-based macs. 
 
